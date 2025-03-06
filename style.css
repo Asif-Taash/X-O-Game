@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Madimi one", sans-serif;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+.title{
+    color: aqua;
+    width: 300px;
+    height: 60px;
+    margin-bottom: 15px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.title span{
+    color: white;
+}
+.title p{
+    font-size: 35px;
+}
+
+.squares{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    justify-content: center;
+}
+.square{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100px;
+    margin: 8px;
+    border-radius: 15px;
+    color: azure;
+    box-shadow: 0 0 10px white;
+    border: 2px solid white;
+
+
+    font-size: 110px;
+    text-align: center;
+    line-height: 0.7;  
+}
+.square:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px aqua;
+    border: 2px solid aqua;
+}
